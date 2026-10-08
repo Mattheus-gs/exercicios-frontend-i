@@ -1,0 +1,7 @@
+.Subtracao{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(107, 102, 102);
+  color: rgb(255, 255, 255);
+  margin: 16px;
+}

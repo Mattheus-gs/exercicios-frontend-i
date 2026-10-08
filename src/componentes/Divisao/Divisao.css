@@ -1,0 +1,7 @@
+.Divisao{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(250, 234, 18);
+  color: rgb(12, 64, 236);
+  margin: 16px;
+}

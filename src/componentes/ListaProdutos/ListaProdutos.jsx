@@ -1,24 +1,13 @@
 import "./ListaProdutos.css";
 
-
 const ListaProdutos = (props) => {
-    return (
-        <>
-        <ul className="ListaProdutos">{props.Lista}
-            <li>Celular Sam</li>
-            <li>Notebook</li>
-            <li>Smart Tv</li>
-            <li>Impressora HP</li>
-            <li>Tablet Multilaser</li>
-            <li>Monitor Dell</li>
-
-        </ul>
-        </>
-
-
-
-
-    );
-}
+  return (
+    <ul className="ListaProdutos">
+      {props.produtos.map((produtos, index) => {
+        return <li key={index}> {produtos}</li>;
+      })}
+    </ul>
+  );
+};
 
 export default ListaProdutos;
