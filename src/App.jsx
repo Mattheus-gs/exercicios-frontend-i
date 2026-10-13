@@ -15,6 +15,9 @@ import Divisao from "./componentes/Divisao/Divisao";
 import Multiplicacao from "./componentes/Multiplicacao/Multiplicacao.jsx";
 import Calculadora from "./componentes/Calculadora/Calculadora.jsx";
 import TamanhoTexto from "./componentes/TamanhoTexto/TamanhoTexto.jsx";
+import NumerosPares from "./componentes/NumerosPares/NumerosPares.jsx";
+import NumerosImpares from "./componentes/NumerosImpares/NumerosImpares.jsx";
+import NomesOrdenados from "./componentes/NomesOrdenados/NomesOrdenados.jsx";
 
 function App() {
   return (
@@ -102,6 +105,28 @@ function App() {
       <VerificarIdade idade="22" />
       <VerificarIdade idade="17" />
 
+      <span>11.Crie um componente chamado 'NumerosPares' que aceita uma prop chamada
+'numeros' e deve ser uma lista de números inteiros.
+O componente deve mostrar uma lista com os números pares em uma ul com o
+fundo azul e a letra amarela.
+</span>
+
+<NumerosPares  numeros={[1,2,3,5,6,7,,9,10,12,15,17,20,23,24]}  />
+
+
+    <span>12.Crie um componente chamado 'NumerosImpares' que aceita uma prop chamada
+'numeros' e deve ser uma lista de números inteiros.
+O componente deve mostrar uma lista com os números ímpares em uma ul
+com o fundo azul e a letra amarela.
+</span>
+
+
+<NumerosImpares numeros={[1,2,5,6,7,10,12,13,15,20,24,31]}/>
+
+
+
+
+
       <span>
         13.Crie um componente chamado 'Soma' que aceita as props 'num1', 'num2',
         o componente deve mostrar: O resultado da soma entre os dois números em
@@ -161,6 +186,17 @@ justificado à direita na cor amarela.
     <TamanhoTexto
     texto="jogar"
     />
+
+
+
+    <span>19.Crie um componente chamado 'NomesOrdenados' que aceita uma prop
+chamado 'nomes' e deve ser uma lista com pelo menos 5 nomes de pessoas
+aleatórias e não ordenada. O componente deve mostrar:
+Uma lista ordenada dos nomes em ordem alfabética em uma ol com o fundo
+rosa, texto na cor vermelha.
+</span>
+
+    <NomesOrdenados  nomes={["Lucas","Amanda","Pedro","Beatriz","Carlos","Fernanda"]}/>
 
 
     </>

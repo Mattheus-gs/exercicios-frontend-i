@@ -1,0 +1,9 @@
+.NumerosPares {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(15, 74, 235);
+    color: yellow;
+
+}
