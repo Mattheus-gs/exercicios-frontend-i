@@ -1,7 +1,7 @@
 .Multiplicacao{
   display: flex;
   justify-content: center;
-  background-color: rgb(150, 39, 31);
-  color: rgb(255, 255, 255);
+  background-color: orange;
+  color: rgb(27, 58, 233);
   margin: 16px;
 }
